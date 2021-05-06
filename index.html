@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MOD Travel Company</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<script>  
+function validateform(){  
+var name=document.myform.name.value;  
+var number=document.myform.number.value;  
+  
+if (name=="" || name==null){  
+  alert("Name can't be blank");  
+  return false;
+}
+else
+{
+  return true;
+} 
+if (number.length!=10)
+{
+  alert("Phone number must be 10 digits");
+  return false
+} 
+else{
+  return true;
+}
+
+}
+</script>
+
+
+<style type="text/css">
+    
+h1{ 
+ text-align: center;
+ background-color: #ffffff;
+ margin-bottom: 20px;
+ margin-right: 500px;
+ margin-left: 500px;
+}
+
+#img1{
+  margin-left: 120px
+}
+
+img{ height: 300px;
+     width: 400px;   
+     margin-left: 10px;
+     margin-right: 10px;
+     margin-bottom: 10px;
+}
+#text{ 
+  text-align: center;
+}
+#para{
+  margin-left: 15%;
+  margin-right: 40px;
+  width: 70%;
+  text-align: justify;
+  line-height: 2em;
+  opacity: 1;
+  border: dotted;
+  padding: 10px
+}
+
+#low{
+  size: 30px;
+}
+
+h4{ text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+body{
+  background-image: url("https://i.pinimg.com/originals/95/f2/51/95f251dc546d705152a8eaac4867bbb4.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed
+}
+
+#one{
+  margin-left: 600px;
+}
+
+li{
+  float: left;
+  margin: 30px;
+}
+
+#div1{
+  text-align: center;
+}
+
+  </style>
+<h1>MOD TRAVEL COMPANY</h1> 
+
+<p>
+<img  id="img1" src="https://images.pexels.com/photos/1398058/pexels-photo-1398058.jpeg?auto=compress&cs=tinysrgb&h=350">
+<img src="https://images.pexels.com/photos/1130287/pexels-photo-1130287.jpeg?auto=compress&cs=tinysrgb&h=350">
+<img src="https://images.pexels.com/photos/707344/pexels-photo-707344.jpeg?auto=compress&cs=tinysrgb&h=350">
+</p>
+   <div id="text">
+		<p id="para">Travel is the movement of people between distant geographical locations. Travel can be done by foot, bicycle, automobile, train, boat, bus, airplane, or other means, with or without luggage, and can be one way or round trip. Travel can also include relatively short stays between successive movements.Travel dates back to antiquity where wealthy Greeks and Romans would travel for leisure to their summer homes and villas in cities such as Pompeii and Baiae. While early travel tended to be slower, more dangerous, and more dominated by trade and migration, cultural and technological advances over many years have tended to mean that travel has become easier and more accessible 
+    </p>
+    </div>
+   <div id="text">
+   	<p id="para">Reasons for traveling include recreation, tourism or vacationing, research travel, the gathering of information, visiting people, volunteer travel for charity, migration to begin life somewhere else, religious pilgrimages and mission trips, business travel, trade, commuting, and other reasons, such as to obtain health care or waging or fleeing war or for the enjoyment of traveling. Travellers may use human-powered transport such as walking or bicycling; or vehicles, such as public transport, automobiles, trains and airplanes.
+    </p>
+   </div>
+
+   <div>
+    <h1>OUR OFFICES IN:</h1>
+        <ul>
+  <li>MANALI</a></li>
+  <li>SHIMLA</a></li>
+  <li>KASUALI</a></li>
+  <li>KERELA</a></li>
+  <li>GOA</a></li>
+  <li>ANDAMAN</a></li><br>
+</u>
+   </div>
+  <br>
+
+<div id="div1">
+  <h3 id="one">LEAVE A QUERY!!</h3>
+
+<form name="myform" method= "post" onsubmit="return validateform()">
+  <label>Name:</label>
+  <input type="text" name ="name "/><br>
+  
+  <label>Number:</label>
+  <input type="text" name = "number"/><br>
+
+  <label>  Query:</label>
+  <input type="text"/><br>
+
+  <input type="submit" value="Submit" >
+  <input type="reset"/>
+</form>
+</div>
+<br>
+<marquee id="low">Thank you for viewing our website!!</marquee>
+<h4>MADE BY MANISHA </h4>
+</body>
+</html>
